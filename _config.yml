@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data analytics Portfolio"
+title                    : "Data Analytics Portfolio"
 title_separator          : "-"
 subtitle                 : "Hello welcome to my data analytics portfolio website" # site tagline that appears below site title in masthead
 name                     : "Christian Obed"
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Christian Obed"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello welcome to my data analytics portfolio website"
+  bio              : ""
   location         : "Jakarta,Indonesia"
-  email            : "c.obed43@gmail.com"
+  email            :
   links:
-    - label: "Email"
+    - label: "Email(c.obed43@gmail.com)"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:c.obed43@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ChristianObed"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -284,9 +284,10 @@ defaults:
       path: ""
       type: posts
     values:
+      classes: wide
       layout: single
       author_profile: true
-      read_time: true
+     # read_time: true
       comments: # true
-      share: true
-      related: true
+    #  share: true
+    #  related: true
